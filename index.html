@@ -4,21 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grade Calculator</title>
     <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
-    <h1>Harry Potter Fan Page</h1>
-    <p>Heres the best site for Harry Potter Fun Facts!</p>
-    <ul>
-        <li><em><strong>Harry Potter</strong></em> Wears Glasses</li>
-        <li><strong>Dobby</strong> is the shit</li>
-        <li>There are 600 Students at Hogwarts</li>
-    </ul>
-    <img src="https://img1.looper.com/img/gallery/mistakes-that-are-hard-to-ignore-in-harry-potter-movies/intro-1572462010.jpg" alt="Harry Potter Acting Mad">
-    <p>If you want to learn more, check out: 
-    <a href="https://www.wizardingworld.com/">Pottermore!</a></p>
+    <div class="container">
+        <header class="header">
+        <h1 class="fancy-text">Grade Calculator</h1>
+        <p>Enter your grades below to calculate your average.</p>
+    </header>
+        <form action="">
+            <label for="name">Assignment Name</label>
+            <input type="text" id="name" />
+            <label for="grade">Grade</label>
+            <input type="number" id="grade">
+            <button>Add Assignment</button>
+            </label>
+        </form>
+        <ul id="gradesList">
+            <li class="grade-item">Math Test 1-70</li>
+            <li class="grade-item">Math Test 2-80</li>
+            <li class="grade-item">Science Test 1-70</li>
+        </ul>
+    </div>
 </body>
 
 </html>
